@@ -1,0 +1,14 @@
+Código: D001
+Nombre: Index - Bienvenida
+Roles: Público general
+
+Necesidad:
+  Tener una página de inicio de bienvenida
+  
+Razón:
+  Presentar el site a tanto a usuarios que lo conocen como aquellos que aún no
+
+Aceptación:
+  Se necesita que el usuario pueda ser redirigido tanto al repositorio(nueva pestaña) como al login(nueva pestaña)
+  
+Relaciones:

@@ -1,0 +1,15 @@
+Código: D102
+Nombre: Testear Datos
+Roles: Usuarios registrados
+
+Necesidad: 
+  Se necesita que el formulario valide los datos introducidos para activar el boton de 'enviar formulario'
+
+Razon: 
+  Evitar envios innecesarios al servidor(rendimiento)
+
+Aceptacion:
+  Los campos de 'usuario' y 'contraseña' no deben contener espacios vacios
+  La longitud de los datos en cada campo de ser de al menos (4 caracteres)
+
+Relaciones:

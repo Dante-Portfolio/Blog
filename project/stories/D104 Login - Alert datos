@@ -1,0 +1,15 @@
+Código: D104
+Nombre: Alert datos
+Roles: Usuarios (todos)
+
+Necesidad:
+  Se necesita que el formulario avise si se ha sido redirigido desde AUTH (devuelto a login)
+
+Razon:
+  Corregir los datos mal introducidos en el formulario o intentos de acceso de usuarios no registrados
+
+Aceptacion:
+  Se mostrará una alerta, esta informará de que los datos introducidos no son correctos
+
+Relaciones:
+

@@ -1,0 +1,14 @@
+Código: D403
+Nombre: Base de datos
+Roles: Sistema
+
+Necesidad:
+  Se necesita recoger los datos desde la BD (archivo JSON)
+
+Razon:
+  Poder usar los datos
+
+Aceptacion:
+   Los datos recogidos seran almacenados para su uso posterior
+
+Relaciones:

@@ -1,0 +1,16 @@
+Código: D404 > 02
+Nombre: Servir html componente
+Roles: Usuario (registrado)
+
+Necesidad:
+  Se necasita crear un documento html que alberge la info del objeto
+  Se necesita mostrar la información del componente en el html aparte
+
+Razon:
+  Se mostrará la información de la entrada por demanda del usuario (posteriormante)
+
+Aceptacion:
+  Se mostrará la info ampliada del componente seleccionado en el nuevo html
+  Se podrá regresar a la pagina de selección configurada con el último filtro seleccionado
+
+Relaciones:

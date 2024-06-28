@@ -1,0 +1,15 @@
+Código: D201
+Nombre: Condiciones
+Roles: Usuarios (todos)
+
+Necesidad: 
+  Se necesita un documento que informe de las condiciones de uso del site
+
+Razon: 
+  El usuario debe ser informado de las condiciones de uso
+
+Aceptacion:
+  El documento debe mostra las condiciones de uso del site (misma pestaña)
+  Debe existir un enlace para volver a pag de login
+
+Relaciones:

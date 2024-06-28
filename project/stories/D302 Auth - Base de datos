@@ -1,0 +1,14 @@
+Código: D302
+Nombre: Base de datos
+Roles: Sistema
+
+Necesidad:
+  Se necesita acceder al BD (recoger los datos del archivo JSON)
+
+Razon:
+  Poder usar los datos
+
+Aceptacion:
+  Los datos recogidos seran almacenados para su uso posterior
+
+Relaciones:

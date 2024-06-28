@@ -1,0 +1,15 @@
+Código:D404 > 01
+Nombre: Servir web component
+Roles: Usuario (registrado)
+
+Necesidad:
+  Se necesita mostrar la información de la entrada de manera individual
+
+Razon:
+  Se mostrará la información de la entrada por demanda del usuario (posteriormante)
+
+Aceptacion:
+  Se mostrarán tantos web component como objetos filtrados desde JSON
+  La información contenida será recogida desde el filtrado del JSON
+
+Relaciones:

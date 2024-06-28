@@ -1,0 +1,18 @@
+Código: D304
+Nombre: Redirigir al usuario
+Roles: Usuarios
+
+Necesidad:
+  Se necesita redirigir la solicitud de acceso
+
+Razon:
+  Dar acceso al site o denegarlo
+
+Aceptacion:
+  Si la validación es correcto:
+    Guardar datos de login para ser usados por el formulario
+    Dar acceso al site pasando como parametro al usuario
+  Si la validación es denegada:
+    Devolver al login pasando un parámetro de denegación
+
+Relaciones:

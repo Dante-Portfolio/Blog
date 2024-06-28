@@ -1,0 +1,14 @@
+Código: D402
+Nombre: Selección opciones
+Roles: usuarios (registrados)
+
+Necesidad:
+  Se necesita que el usuario pueda cambiar entre las opciones de filtrado
+
+Razon:
+  El usuario necesita poder seleccionar diferes opciones
+
+Aceptacion:
+  Se reflejará el cambio de filtro en el contenedor de entradas
+
+Relaciones:

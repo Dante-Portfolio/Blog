@@ -1,0 +1,14 @@
+Código: D301
+Nombre: Datos de formulario
+Roles: usuarios (todos)
+
+Necesidad: 
+  Se necesita que los datos enviados por el formulario sean recogidos
+
+Razon:
+  Reconocer los datos introducidos por el usuario en el formulario de LOGIN 
+
+Aceptacion:
+  Se deben mostrar los datos introducidos por pantalla
+
+Relaciones:

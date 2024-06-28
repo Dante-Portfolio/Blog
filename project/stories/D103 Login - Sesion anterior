@@ -1,0 +1,15 @@
+Código: D103
+Nombre: Sesion anterior
+Roles: Usuarios registrados
+
+Necesidad:
+  Se necesita que el formulario recuerde la ultima sesion (validada por AUTH) 
+
+Razon:
+  Evitar al usuario volver a rellenar el formulario
+
+Aceptacion:
+  El formulario mostrará los datos de la ultima sesión válida y esperará el envio manual del formulario
+  El botón de envio se activará automaticamente si existen datos de una sesión anterior
+
+Relaciones:

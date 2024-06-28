@@ -1,0 +1,14 @@
+Código: D303
+Nombre: Contrastar datos
+Roles: Sistema
+
+Necesidad:
+  Se necesita validar al usuario
+
+Razon:
+  Dar acceso o denegar al usuario
+
+Aceptacion:
+  Se acepta o se rechaza el login
+
+Relaciones:

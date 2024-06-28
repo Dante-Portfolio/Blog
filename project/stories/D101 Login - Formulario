@@ -1,0 +1,22 @@
+Código: D101
+Nombre: Login_formulario
+Roles: Usuarios registrados
+
+Necesidad:
+  Se necesita que el usuario pueda identificarse a través de un formulario
+
+Razon:
+  Identificarse en el site
+
+Aceptacion:
+  El formulario debe contener:
+    Un campo para introducir su nombre de usuario
+    Un campo para introducir su contraseña
+    Un check para aceptar las condiciones
+    Un enlace para abrir otro documento con las condiciones
+    Un boton para enviar el formulario (desactivado por defecto)
+  Requisitos:
+    El boton de envio solo se activará al aceptar las condiciones
+    El formulario envia los datos contra un Auth por GET
+
+Relaciones:

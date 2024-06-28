@@ -1,0 +1,14 @@
+Código: D403 > 01
+Nombre: Filtrado
+Roles: Usuarios (registrados)
+
+Necesidad:
+  Se necesita que los datos sean filtrados
+
+Razon:
+  Se necesitaran posteriormente
+
+Aceptacion:
+  Los datos filtrados mostrarán por consola el array de la sección correspondiente
+
+Relaciones:

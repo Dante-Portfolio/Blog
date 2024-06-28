@@ -1,0 +1,17 @@
+Código: D401
+Nombre: Mostrar blog
+Roles: Usuarios (registrados)
+
+Necesidad:
+  Se necesita mostrar la pagina principal del blog
+
+Razon:
+  El usuario requiere acceso a toda la funcionalidad de la pagina
+
+Aceptacion:
+  Se mostrará el nombre de usuario
+  Se mostrará un nav con diferentes opciones de filtrado 
+  Se mostrará un contenedor principal donde se insertarán las entradas del blog
+  Abrá una opción de filtrado seleccionada por defecto (Todo o general)
+
+Relaciones:

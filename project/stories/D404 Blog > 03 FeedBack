@@ -1,0 +1,16 @@
+Código: D404 > 03
+Nombre: FeedBack
+Roles: Usuario (registrado)
+
+Necesidad:
+  Se necesita poder hacer feedback en cada articulo
+
+Razon:
+  El usuario debe tener la opción de feedback en cada articulo
+
+Aceptacion:
+  Exista un boton de feedback en cada articulo
+  El comportamiento del boton sea solicitar al sistema el cliente de correo
+  Este cliente debe estar configurado con los datos de contacto del autor del articulo
+
+Relaciones:

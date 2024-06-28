@@ -1,0 +1,17 @@
+Código: D404
+Nombre: Web component
+Roles: Sistema
+
+Necesidad:
+  Se necesita crear el componente 
+
+Razon:
+  Se usarán posteriormente
+
+Aceptacion:
+  Se mostrará el web component en contenedor (añadido manualmente en el html):
+    Se mostrará la información contenida en uno de los objetos de la BD incluyendo la imagen ...
+      (la info se pasará desde un array creado con la misma estructura que el JSON)
+    Tendrá un link que apuntará a un html que lo mostrará (posteriormente)
+
+Relaciones:
