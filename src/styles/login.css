@@ -10,8 +10,20 @@ body {
 
         .send {
             appearance: none;
+            width: 200px;
             height: 30px;
-            margin: 0 16px 0 16px;
+            border: 1px solid black;
+            text-align: center;
         }
+
+        .enabled {
+            background-color: blue;
+        }
+
+        .disabled {
+            pointer-events: none;
+            background-color: rgb(233, 233, 233);
+        }
+
     }
 }

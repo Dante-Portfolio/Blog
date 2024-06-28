@@ -9,7 +9,7 @@ Razon:
   Evitar envios innecesarios al servidor(rendimiento)
 
 Aceptacion:
+  Todos los campos deben ser rellenados
   Los campos de 'usuario' y 'contraseña' no deben contener espacios vacios
-  La longitud de los datos en cada campo de ser de al menos (4 caracteres)
 
 Relaciones:

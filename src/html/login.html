@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form action="auth.html" method="get">
+    <form id="login" action="auth.html" method="get">
         <h1>Login</h1>
         <label for="user">Usuario</label>
         <input type="text" name="user" id="user">
@@ -17,7 +17,7 @@
         <input type="text" name="pass" id="pass">
         <input type="checkbox" name="" id="accept">
         <label for="accept">Acepto las condiciones legales de uso</label>
-        <button id="send" class="disabled" disabled>Enviar</button>
+        <div id="send" class="send disabled">Enviar</div>
     </form>
 
     <script src="../scripts/login.js"></script>
