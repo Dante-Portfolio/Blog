@@ -3,7 +3,6 @@
 
 #       #### MINIMO CON FUNCIONALIDAD
 
-D302 Auth - Base de datos                               Time: 1h
 D303 Auth - Contrastar datos                            Time: 1h
 D304 Auth - Login sesion anterior                       Time: 1h
 D305 Auth - Redirigir al usuario                        Time: 1h
@@ -51,7 +50,8 @@ D101 Login - Formulario                                 Time: 1h        Real: 40
 D102 Login - Testear datos                              Time: 2h        Real: 50min
 D103 Login - Alert datos                                Time: 1h        Real: 20min
 D201 Condiciones                                        Time: 0h 20min  Real: 10min
-D301 Auth - Datos de formulario                         Time: 1h
+D301 Auth - Datos de formulario                         Time: 1h        Real: 20min
+D302 Auth - Base de datos                               Time: 1h        Real: 1h
 
                              
 
