@@ -3,8 +3,6 @@
 
 #       #### MINIMO CON FUNCIONALIDAD
 
-D201 Condiciones                                        Time: 0h 20min
-D301 Auth - Datos de formulario                         Time: 1h
 D302 Auth - Base de datos                               Time: 1h
 D303 Auth - Contrastar datos                            Time: 1h
 D304 Auth - Login sesion anterior                       Time: 1h
@@ -47,11 +45,13 @@ T006 FeedBack - testing                                 Time: 1h
 
 # [Revision]
 
-D000 Html                                               Time: 0h 10min
-D001 Index - Bienvenida                                 Time: 0h 20min
-D101 Login - Formulario
-D102 Login - Testear datos                              Time: 2h
-D103 Login - Alert datos                                Time: 1h
+D000 Html                                               Time: 0h 10min  Real: 10min
+D001 Index - Bienvenida                                 Time: 0h 20min  Real: 10min
+D101 Login - Formulario                                 Time: 1h        Real: 40min
+D102 Login - Testear datos                              Time: 2h        Real: 50min
+D103 Login - Alert datos                                Time: 1h        Real: 20min
+D201 Condiciones                                        Time: 0h 20min  Real: 10min
+D301 Auth - Datos de formulario                         Time: 1h
 
                              
 
