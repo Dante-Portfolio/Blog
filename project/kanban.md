@@ -3,7 +3,6 @@
 
 #       #### MINIMO CON FUNCIONALIDAD
 
-D000 Html                                               Time: 0h 10min
 D001 Index - Bienvenida                                 Time: 0h 20min
 D101 Login - Formulario
 D102 Login - Testear datos                              Time: 2h
@@ -50,6 +49,7 @@ T006 FeedBack - testing                                 Time: 1h
 
 
 # [Revision]
+D000 Html                                               Time: 0h 10min
 
                              
 
