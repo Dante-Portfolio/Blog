@@ -3,7 +3,6 @@ const box = document.getElementById('box')
 const user = data.get('user')
 const pass = data.get('pass')
 
-box.innerText = 'Usuario: ' + user + '\n' + 'Contraseña: ' + pass
 
 async function getFecth() {
     const response = await fetch('../users.json')
@@ -23,6 +22,15 @@ async function getData() {
 async function info() {
     const dataLogin = await getData()
     console.log(dataLogin)
+
+    for (const userLogin of dataLogin) {
+        if (user === userLogin.username && pass === userLogin.password) {
+            box.innerText = 'Usuario: ' + user + '\n' + 'Contraseña: ' + pass + '\n' + 'Login: aceptado'
+            return
+        } else {
+            box.innerText = 'Usuario: ' + user + '\n' + 'Contraseña: ' + pass + '\n' + 'Login: rechazado'
+        }
+    }
 }
 
 info()
