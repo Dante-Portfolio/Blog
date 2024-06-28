@@ -3,13 +3,13 @@
 
 #       #### MINIMO CON FUNCIONALIDAD
 
-D103 Login - Sesion anterior                            Time: 1h
-D104 Login - Alert datos                                Time: 1h
 D201 Condiciones                                        Time: 0h 20min
 D301 Auth - Datos de formulario                         Time: 1h
 D302 Auth - Base de datos                               Time: 1h
 D303 Auth - Contrastar datos                            Time: 1h
-D304 Auth - Redirigir al usuario                        Time: 1h
+D304 Auth - Login sesion anterior                       Time: 1h
+D305 Auth - Redirigir al usuario                        Time: 1h
+
 D401 Blog - Servir blog                                 Time: 1h
 D402 Blog - Selección opciones                          Time: 1h
 D403 Blog - Base de datos                               Time: 1h
@@ -51,6 +51,7 @@ D000 Html                                               Time: 0h 10min
 D001 Index - Bienvenida                                 Time: 0h 20min
 D101 Login - Formulario
 D102 Login - Testear datos                              Time: 2h
+D103 Login - Alert datos                                Time: 1h
 
                              
 
