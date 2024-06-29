@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+    }
+
+    .userBox {
+        width: 200px;
+        height: 50px;
+        border: 1px solid black;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        nav {
+            width: 180px;
+            height: 100%;
+            border: 1px solid black;
+
+            div {
+                display: flex;
+            }
+        }
+
+        .mainContainer {
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+
+        }
+    }
+}

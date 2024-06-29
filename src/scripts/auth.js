@@ -26,7 +26,7 @@ async function checkData() {
             box.innerText = 'Usuario: ' + user + '\n' + 'Contraseña: ' + pass + '\n' + 'Login: aceptado'
             const login = [{ user: user, pass: pass }]
             localStorage.setItem('userSession', JSON.stringify(login))
-            url = '../html/blog.html?' + user, '_self'
+            url = '../html/blog.html?user=' + user, '_self'
             setTimeout(function() {redirectUser(url)}, 5000)
             return
         }
