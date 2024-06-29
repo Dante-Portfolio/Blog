@@ -3,7 +3,6 @@
 
 #       #### MINIMO CON FUNCIONALIDAD
 
-D403 Blog > 01 Filtrado                                 Time: 2h
 D404 Blog - Web component                               Time: 2h
 D404 Blog > 01 Mostrar web component                    Time: 3h
 D404 Blog > 02 Servir html componente                   Time: 4h
@@ -32,7 +31,7 @@ T006 FeedBack - testing                                 Time: 1h
 
 # [En proceso]
 
-D403 Blog - Base de datos                               Time: 1h
+D403 Blog > 01 Filtrado                                 Time: 2h
 
 
 # [Revision]
@@ -50,7 +49,8 @@ D304 Auth - Login sesion anterior                       Time: 1h        Real: 2h
 D305 Auth - Redirigir al usuario                        Time: 1h        Real: 40min
 D401 Blog - Servir blog                                 Time: 1h        Real: 30min
 D402 Blog - Selección opciones                          Time: 1h        Real: 50min
-
+D403 Blog - Base de datos                               Time: 1h
+Real: 30min
 
 # [Finalizado]
 
