@@ -3,7 +3,6 @@
 
 #       #### MINIMO CON FUNCIONALIDAD
 
-D401 Blog - Servir blog                                 Time: 1h
 D402 Blog - Selección opciones                          Time: 1h
 D403 Blog - Base de datos                               Time: 1h
 D403 Blog > 01 Filtrado                                 Time: 2h
@@ -32,10 +31,10 @@ T006 FeedBack - testing                                 Time: 1h
 
 # [Spring]
 
-D305 Auth - Redirigir al usuario                        Time: 1h
 
 # [En proceso]
 
+D401 Blog - Servir blog                                 Time: 1h
 
 
 # [Revision]
@@ -50,6 +49,7 @@ D301 Auth - Datos de formulario                         Time: 1h        Real: 20
 D302 Auth - Base de datos                               Time: 1h        Real: 1h
 D303 Auth - Contrastar datos                            Time: 1h        Real: 1h 30min
 D304 Auth - Login sesion anterior                       Time: 1h        Real: 2h
+D305 Auth - Redirigir al usuario                        Time: 1h        Real: 40min
 
 
 # [Finalizado]

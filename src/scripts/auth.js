@@ -18,20 +18,26 @@ async function getData() {
 }
 
 // funcion principal > getData > getFecth
-async function info() {
+async function checkData() {
     const dataLogin = await getData()
-    console.log(dataLogin)
-
+    let url
     for (const userLogin of dataLogin) {
         if (user === userLogin.username && pass === userLogin.password) {
             box.innerText = 'Usuario: ' + user + '\n' + 'Contraseña: ' + pass + '\n' + 'Login: aceptado'
             const login = [{ user: user, pass: pass }]
             localStorage.setItem('userSession', JSON.stringify(login))
+            url = '../html/blog.html?' + user, '_self'
+            setTimeout(function() {redirectUser(url)}, 5000)
             return
-        } else {
-            box.innerText = 'Usuario: ' + user + '\n' + 'Contraseña: ' + pass + '\n' + 'Login: rechazado'
         }
     }
+    box.innerText = 'Usuario: ' + user + '\n' + 'Contraseña: ' + pass + '\n' + 'Login: rechazado'
+    url = '../html/login.html?failed', '_self'
+    setTimeout(function() {redirectUser(url)}, 5000)
 }
 
-info()
+function redirectUser(par) {
+    window.open(par)
+}
+
+checkData()

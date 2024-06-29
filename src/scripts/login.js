@@ -26,7 +26,7 @@ function changeSubmit() {
 
 function alertLogin() {
     const params = new URLSearchParams(location.search)
-    if (params.has('login')) {
+    if (params.has('failed')) {
         alert('Vuelve a intentarlo\nLos datos introducidos son incorrectos')
     }
 }
