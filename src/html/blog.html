@@ -15,41 +15,52 @@
     </header>
     <main>
         <nav>
-            <div>
-                <input type="radio" name="filter" id="filter1" checked>
-                <label for="">filtro 1</label>
-            </div>
-            <div>
-                <input type="radio" name="filter" id="filter2">
-                <label for="">filtro 2</label>
-            </div>
-            <div>
-                <input type="radio" name="filter" id="filter3">
-                <label for="">filtro 3</label>
-            </div>
-            <div>
-                <input type="radio" name="filter" id="filter4">
-                <label for="">filtro 4</label>
-            </div>
-            <div>
-                <input type="radio" name="filter" id="filter5">
-                <label for="">filtro 5</label>
-            </div>
-            <div>
-                <input type="radio" name="filter" id="filter6">
-                <label for="">filtro 6</label>
-            </div>
-            <div>
-                <input type="radio" name="filter" id="filter7">
-                <label for="">filtro 7</label>
-            </div>
-            <div>
-                <input type="radio" name="filter" id="filter8">
-                <label for="">filtro 8</label>
-            </div>
+            <form id="codeForm" action="">
+                <fieldset>
+                    <div>
+                        <input type="radio" name="filter" id="todo" checked>
+                        <label for="">Todo</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filter" id="filter1">
+                        <label for="">Bash</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filter" id="filter2">
+                        <label for="">JavaScript</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filter" id="filter3">
+                        <label for="">Python</label>
+                    </div>
+                </fieldset>
+            </form>
 
+            <form id="levelForm" action="">
+                <fieldset>
+                    <div>
+                        <input type="radio" name="filter" id="todo" checked>
+                        <label for="">Todo</label>
+                    </div>        
+                    <div>
+                        <input type="radio" name="filter" id="filter4">
+                        <label for="">Easy</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filter" id="filter5">
+                        <label for="">Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="filter" id="filter6">
+                        <label for="">Hard</label>
+                    </div>
+                </fieldset>
+            </form>
         </nav>
-        <div id="mainContainer" class="mainContainer"></div>
+        <div id="mainContainer" class="mainContainer">
+            <h2 id="sectionTitle">Filtro todo</h2>
+            <div id="articlesBox" class="articlesContainer"></div>
+        </div>
     </main>
 
     <script src="../scripts/blog.js"></script>

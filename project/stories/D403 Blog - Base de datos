@@ -3,7 +3,7 @@ Nombre: Base de datos
 Roles: Sistema
 
 Necesidad:
-  Se necesita recoger los datos desde la BD (archivo JSON)
+  Se necesita recoger los datos desde la BD (archivo ARTICLES.JSON)
 
 Razon:
   Poder usar los datos
