@@ -27,7 +27,6 @@ T006 FeedBack - testing                                 Time: 1h
 
 # [En proceso]
 
-D404 Blog > 02 Servir html componente                   Time: 4h
 
 # [Revision]
 
@@ -49,6 +48,7 @@ D403 Blog > 01 Filtrado                                 Time: 2h        Real: 4h
 D404 Blog - Web component                               Time: 2h        Real: 5h
 D404 Blog > 01 Mostrar web component                    Time: 3h        Real: 4h
 D404 Blog > 03 FeedBack                                 Time: 2h        Real: 10min
+D404 Blog > 02 Servir html componente                   Time: 4h        Real: 2h 20min
 
 
 # [Finalizado]

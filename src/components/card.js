@@ -98,8 +98,14 @@ export class componente extends HTMLElement {
     }
 
     connectedCallback() {
-        const array = this.getAttribute('config')
-        const config = JSON.parse(array)
+
+        let config = []
+
+        if (this.hasAttribute('config')) {
+            config = JSON.parse(this.getAttribute('config'));
+        } else {
+            config = JSON.parse(localStorage.getItem('article'))
+        }
 
         this.shadowRoot.getElementById('image').src = config.image
         this.shadowRoot.getElementById('title').textContent = config.title
@@ -111,13 +117,15 @@ export class componente extends HTMLElement {
         // mailto
         this.shadowRoot.getElementById('mailLink').href = 'mailto:' + config.author.mail
         //
+
         // link
         const component = this.shadowRoot.getElementById('card')
-        component.addEventListener('click', () => {
-            window.open('../html/article.html?' + config);
-          })
-
-
+        if (this.hasAttribute('config')) {
+            component.addEventListener('click', () => {
+                localStorage.setItem('article', JSON.stringify(config))
+                window.open('../html/article.html')
+            })
+        }
     }
 }
 

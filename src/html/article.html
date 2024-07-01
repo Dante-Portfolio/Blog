@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article</title>
+    <link rel="stylesheet" href="../styles/article.css">
 </head>
+
 <body>
-    <h1>Article</h1>
-
-    <div id='card' class="card">
-        <img id="image"></img>
-        <h3 id="title"></h3>
-        <div id="name" class="name"></div>
-
-        <p id='content'></p> 
-        <div class="authorBox">
-            <a id='mailLink'><div id="iconMail" class="iconMail"></div></a>
-            <div id="date" class="date"></div>
-        </div>
-
-        <div class="labelBox">
-            <div id="label1" class="label1"></div>
-            <div id="label2" class="label2"></div>
-        </div>
-    </div>
-    
-    <script src="../components/card.js"></script>
+    <card-art id="card-art"></card-art>
+    <script type="module" src="../components/card.js">
+    </script>
 </body>
+
 </html>

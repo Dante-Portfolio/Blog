@@ -1,5 +1,6 @@
 import { componente } from '../components/card.js'
 
+
 const userBox = document.getElementById('userBox')
 const data = new URLSearchParams(location.search)
 const titleContainer = document.getElementById('sectionTitle')
@@ -8,9 +9,8 @@ const articlesContainer = document.getElementById('articlesContainer')
 const codeForm = document.getElementById('codeForm')
 const levelForm = document.getElementById('levelForm')
 
-codeForm.reset()
-levelForm.reset()
-
+codeForm.reset()    // reset radios
+levelForm.reset()   // reset radios
 // TITLE INNER
 
 function innerTitle(par) {
@@ -33,12 +33,9 @@ async function getObjects() {
 
     const data = await getArticles()
     dataList = []
-    console.log(data)
 
     for (const item of data) {
         dataList.push(item)
-        console.log('getObject pasa: ' + dataList)
-        console.log(dataList)
     }
     return dataList
 }
@@ -50,7 +47,6 @@ let levelFilter = []
 
 async function select() {
     const array = await getObjects()
-    console.log('Select recoge :' + array)
 
     codeFilter = []
     levelFilter = []
@@ -78,25 +74,25 @@ async function select() {
         levelFilter = codeFilter
     }
 
-    console.log('------------------------')
-    console.log(codeSelect.nextElementSibling.innerHTML + ' ' + codeFilter.length)
-    console.log(levelSelect.nextElementSibling.innerHTML + ' ' + levelFilter.length)
+    console.log('filtro 1: ' + codeSelect.nextElementSibling.innerHTML + ' ' + codeFilter.length)
+    console.log('filtro 2: ' +levelSelect.nextElementSibling.innerHTML + ' ' + levelFilter.length)
     return levelFilter
 }
 // ...................................................................
 
+// ARQUITED calcula, genera contenedores e inserta los elementos
 async function arquited() {
     const elements = await select()
-    console.log('arquited recoge :' + elements.length)
+    console.log('Arquited recoge: ' + elements.length + ' elementos')
     const cards4Container = 3
     const containerNeeded = Math.ceil(elements.length / 3)
 
-    console.log('Elementos por contenedor: ' + cards4Container)
-    console.log('Número de elementos: ' + elements.length)
-    console.log('Contenedores necesarios: ' + containerNeeded)
+    console.log('   Elementos por contenedor: ' + cards4Container)
+    console.log('   Número de elementos: ' + elements.length)
+    console.log('   Contenedores necesarios: ' + containerNeeded)
 
     articlesContainer.innerHTML = ''
-    let z = 0
+    let z = 0 // Contador elementos totales
     for (let i = 0; i < containerNeeded; i++) {
         let container = document.createElement('span')
         container.classList = 'cardContainer'
@@ -104,19 +100,22 @@ async function arquited() {
 
         for (let x = 0; x < cards4Container; x++) {
             let card = document.createElement('card-art')
-            // card.setAttribute('config', elements[z]) 
             card.setAttribute('config', JSON.stringify(elements[z])) 
-
+            //
             z += 1
-
+            //
             container.appendChild(card)
         }
     }
+    console.log('------------------------')
 }
+// ..............................................................
 
 for (let i = 0; i < filter.length; i++) {
     filter[i].addEventListener('click', function () { arquited() })
 }
+
+userBox.innerHTML = data.get('user')
 
 getObjects()
 arquited()
