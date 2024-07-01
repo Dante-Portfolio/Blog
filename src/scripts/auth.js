@@ -37,7 +37,7 @@ async function checkData() {
 }
 
 function redirectUser(par) {
-    window.open(par)
+    window.location.href = par
 }
 
 checkData()

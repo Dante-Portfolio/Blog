@@ -3,9 +3,6 @@
 
 #       #### MINIMO CON FUNCIONALIDAD
 
-D404 Blog > 01 Mostrar web component                    Time: 3h
-D404 Blog > 02 Servir html componente                   Time: 4h
-D404 Blog > 03 FeedBack                                 Time: 2h
 
 
 #       #### COMPLETO
@@ -30,7 +27,7 @@ T006 FeedBack - testing                                 Time: 1h
 
 # [En proceso]
 
-D404 Blog - Web component                               Time: 2h
+D404 Blog > 02 Servir html componente                   Time: 4h
 
 # [Revision]
 
@@ -49,6 +46,9 @@ D401 Blog - Servir blog                                 Time: 1h        Real: 30
 D402 Blog - Selección opciones                          Time: 1h        Real: 50min
 D403 Blog - Base de datos                               Time: 1h        Real: 30min
 D403 Blog > 01 Filtrado                                 Time: 2h        Real: 4h
+D404 Blog - Web component                               Time: 2h        Real: 5h
+D404 Blog > 01 Mostrar web component                    Time: 3h        Real: 4h
+D404 Blog > 03 FeedBack                                 Time: 2h        Real: 10min
 
 
 # [Finalizado]
